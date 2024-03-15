@@ -1,0 +1,47 @@
+{
+  "name": "adivsr-applicant-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "author": "",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "generate": "node ./generate.js",
+    "prettier": "npx prettier --write ."
+  },
+  "dependencies": {
+    "@apollo/client": "^3.9.6",
+    "@faker-js/faker": "^8.0.2",
+    "@vue-leaflet/vue-leaflet": "^0.10.1",
+    "@vue/runtime-core": "^3.4.21",
+    "axios": "^1.6.7",
+    "core-js": "^3.8.3",
+    "leaflet": "^1.9.4",
+    "lodash": "^4.17.21",
+    "rosie": "^2.1.0",
+    "vue": "^3.2.13",
+    "vue-leaflet": "^0.1.0",
+    "vue-router": "^4.0.3",
+    "vuetify": "^3.5.9"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.4.47",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "prettier": "3.2.5",
+    "typescript": "^5.4.2"
+  },
+  "_id": "adivsr-applicant-project@1.0.0",
+  "license": "ISC",
+  "readme": "ERROR: No README data found!"
+}
