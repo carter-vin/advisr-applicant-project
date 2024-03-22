@@ -94,7 +94,6 @@ export default defineComponent({
           : [],
       );
     });
-
     return {
       businesses,
       loading,

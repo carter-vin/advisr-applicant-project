@@ -18,17 +18,17 @@ router.get('/businesses', (req, res) => {
 });
 
 router.get('/businessesCat', (req, res) => {
-    console.log("businessesCat")
         const result = businesses.map(business => {
 
           const category = categories.find(category => category.id === _.find(businessesCategories, { businessId: business.id }).categoryId);
     
           const businessCampaigns = campaigns.filter(campaign => campaign.businessId === business.id);
-
+          const businessLocations = locations.filter(location => location.businessId === business.id);
           return {
             ...business,
             category,
-            campaigns: businessCampaigns
+            campaigns: businessCampaigns,
+            locations: businessLocations
           };
         });
       

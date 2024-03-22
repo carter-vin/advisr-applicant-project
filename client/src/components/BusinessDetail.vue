@@ -122,7 +122,6 @@ export default defineComponent({
               lng: location.longitude,
             }))
     });
-
     return {
       business,
       loading,
